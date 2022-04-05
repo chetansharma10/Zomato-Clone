@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.main{
+    width: 100%;
+    height:auto;
+    overflow:hidden;
+    outline: none;
+    position: relative;
+}
+
+
+.hd{
+    width:100%;
+    height:462px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter:blur(0px);
+
+    animation-name: blur;
+    animation-timing-function: ease;
+    animation-fill-mode: ease;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes blur{
+    0%{
+        filter:blur(3px);
+    }
+    100%{
+        filter:blur(0px);
+
+    }
+}
+.nav-hd{
+
+    width:100%;
+    height:50px;
+    padding-right: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.nav-hd a{
+    text-decoration: none;
+    color:white;
+    margin-right: 3%;
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-login,.nav-signup{
+    color:white;
+    margin-right: 3%;
+    font-size: 18px;
+    font-weight: 400;
+    background-color:transparent;
+    border:none;
+    outline:none;
+    cursor: pointer;
+
+}
+
+
+.dropList{
+    width:160px;
+    height:auto;
+    opacity:0;
+    transition-property: display;
+    background-color: white;
+    top:50px;
+    position: absolute;
+    transition:0.3s ease;
+    margin-right: 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 5px;
+    overflow: hidden;
+}   
+.dropList button{
+    cursor: pointer;
+    color: black !important;
+    font-size: 15px;
+    text-align: left;
+    padding: 8px;
+    width:100%;
+    outline:none;
+    border:none;
+    background-color: transparent;
+}
+.dropList button:hover{
+    background-color: rgba(211, 211, 211, 0.445);
+}
+.nav-profile{
+    width:35px;
+    height:35px;
+    border-radius: 100%;
+    border:none;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.nav-profile img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+.content-hd{
+    width:100%;
+    height:auto;
+
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+
+}
+.content-img{
+    width:300px;
+    height:60px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.content-desc{
+    color:white;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.content-search{
+    margin-top: 20px;
+    width:700px;
+    height:47px;
+    padding: 10px;
+    background-color: white;
+
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:flex-start;
+    border-radius:5px;
+
+}
+
+.loc{
+    width:30px;
+    height:30px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+.content-search input{
+    height:100%;
+    outline:none;
+    padding-left: 10px;
+    border: none;
+    font-weight: 300;
+    font-size: 13px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+
+}
+
+.lastInput{
+    width:100%;
+}
+
+@media screen and (max-width:769px)
+{
+    .content-search{
+        width:80%;
+    }
+    .content-desc{
+        font-size: 30px;
+        text-align: center;
+    }
+    .firstInput{
+        width:100px;
+    }
+}

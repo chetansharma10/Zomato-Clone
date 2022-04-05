@@ -1,0 +1,91 @@
+.foodItems{
+    width:100%;
+    height:100vh;
+    padding: 15px;    
+}
+
+.itemsBox{
+    width:100%;
+    height:auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+.itemBase{
+    width:270px;
+    height:auto;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 35px;
+
+
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.itemBase img{
+    width:100%;
+    height:200px;
+    border-radius: 10px;
+
+    object-fit: cover;
+    object-position: center;
+
+
+}
+
+.itemBase .sepr{
+    width:100%;
+
+    height:auto;
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemBase .rateBox{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+}
+.rateBox span{
+    width:30px;
+    height:20px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-left: 5px;
+    border-radius: 2px;
+    padding-right: 5px;
+    font-size: 15px !important;
+    background-color: #3B7E3E;
+}
+.addToCart{
+    background-color:transparent;
+    border:none;
+    cursor: pointer;
+}
+.addToCart i{
+    color: gray;
+}
+.addToCart i:hover{
+    color:rgb(53, 53, 53);
+}
+@media screen and (max-width:600px) {
+    .itemBase{
+        flex-grow: 1;
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,149 @@
+.mainCart{
+    width:100%;
+
+}
+
+.itemsArea{
+    margin-left: 10%;
+    margin-right: 11%;
+    width:auto;
+    height:auto;
+    
+}
+
+
+.cartItems{
+    width:100%;
+    height:auto;
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    
+
+}
+.cartItem{
+    border:1px solid lightgray;
+    width:220px;
+    border-radius: 10px;
+    padding: 10px;
+    height:auto;
+    margin: 1%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btns{
+    width:100%;
+    height:auto;
+
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+.btns .quantity{
+    font-size: 20px;
+    font-weight: bolder;
+    padding:5px;
+    text-align: center;
+
+}
+
+.btns button:first-child{
+    background-color: #FCC439;
+}
+.btns button{
+    width:30px;
+    height:30px;
+    font-size: 15px;
+    margin-right:5px;
+    background-color: #2C2E2F;
+}
+.cartTop{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.cartTop input{
+    width:20px;
+    height:20px;
+    
+}
+.cartTop label{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.imgX{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.imgX img{
+    width:100%;
+    height:140px;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.9;
+    transition: 1s ease;
+
+}
+.del{
+    width:25px;
+    height:25px;
+    background-color: transparent;
+}
+.del i{
+    color:gray;
+}
+.cartItem{
+    overflow: hidden;
+    transition: 1s ease;
+
+}
+.imgX{
+    overflow: hidden;
+    transition: 1s ease;
+
+}
+.cartItem:hover .imgX img{
+    transform:scale(1.1);
+    transition: 1s ease;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#paypal-button-container{
+    margin-top: 50px;
+    width:100% !important;
+    display:flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.paypal-buttons{
+    width:100% !important;
+    display: flex !important;
+}
+#zoid-paypal-buttons-uid{
+    width:100%;
+
+}

@@ -1,0 +1,41 @@
+.mylabel{
+    padding:10px;
+    font-size: 15px;
+}
+.mylabel span{
+    margin-left: 25px;
+}
+.itemArea{
+    width:90%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+}
+.itemArea input{
+    width: 100%;
+    height:45px;
+    padding-left:10px;
+    border-radius: 5px;
+    border:1px solid gray;
+    margin-bottom: 10px;
+}
+.itemArea textarea
+{
+    resize: none;
+    height:150px;
+    padding:10px;
+    margin-bottom: 10px;
+
+}
+button{
+    width:100%;
+    height:45px;
+    background-color:#2781E7;
+    border:none;
+    outline:none;
+    color:white;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}

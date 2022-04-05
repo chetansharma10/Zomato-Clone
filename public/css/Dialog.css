@@ -1,0 +1,138 @@
+.dialogBox{
+    width:100%;
+    height:100vh;
+    position: absolute;
+    top:0px;
+    background-color: rgba(0, 0, 0, 0.671);
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+        
+}
+.dialogBox2{
+    width:100%;
+    height:100vh;
+    position: absolute;
+    top:0px;
+    background-color: rgba(0, 0, 0, 0.671);
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+        
+}
+
+
+
+
+
+.dialogItem{
+    width:400px;
+    height:auto;
+    background-color: white;
+    border-radius: 5px;
+    padding:10px;
+    position: relative;
+
+
+    
+}
+.dialogClose,.dialogClose2{
+    width:25px;
+    height:25px;
+    border-radius: 100%;
+    outline:none;
+    border:none;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    position:absolute;
+    right:0px;
+    top:0px;
+    font-weight: bolder;
+    margin: 10px;
+    cursor: pointer;
+}
+.type{
+    padding-left: 10px;
+    
+}
+.switcher{
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    height:auto;
+}
+.switcher button{
+    padding-left: 4px;
+    background-color:transparent;
+    border:none;
+    outline:none;
+    cursor: pointer;
+
+    color:#EF4C63;
+    font-weight: bolder;
+}
+.form{
+    width:100%;
+    height:auto;
+    margin-top: 20px;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.extraStyle{
+    width:90%;
+    height:45px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    
+    border:0.1px solid lightgray;
+    color:black;
+    outline:none;
+}
+.extraStyle:focus{
+    color:rgb(255, 70, 101);
+    font-weight: bolder;
+    border:1.5px solid rgb(255, 70, 101);
+    border-radius: 5px;
+}
+.submit{
+    background-color: rgb(255, 70, 101);
+    color:white;
+    outline:none;
+    border:none;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+    width:90%;
+    height:45px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    
+}
+
+.userTypes{
+    width:90%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.userTypes span{
+    margin: 10px;
+}
+.userTypes span input{
+    margin: 5px;
+    accent-color:#EF4C63;
+}
